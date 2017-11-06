@@ -27,10 +27,11 @@
     address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
     body,th,td,input,select,textarea,button{font-size:14px;line-height:1.5;font-family:'Malgun Gothic', '맑은 고딕', sans-serif;color:#000}
     img{width:100%}
-    .img_coming{position:fixed;top:50%;left:50%;width:25%;margin-left:-12.5%;margin-top:-15%}
-    .img_bg{position:relative;top:100px;left:0;width:100%}
-    @media screen and (max-width:1024px){.img_coming{width:40%;margin-left:-20%;top:35%}}
-    @media screen and (max-width:736px){.img_coming{width:50%;margin-left:-25%;top:28%}}
+    .inner_img{position:absolute;top:0;left:0;right:0;bottom:0}
+    .img_coming{position:fixed;top:50%;left:50%;width:30%;height:auto;margin-left:-15%;margin-top:-20%}
+    .img_bg{position:absolute;top:50%;width:100%;height:auto;margin-top:-40%}
+    @media screen and (max-width:1024px){.img_coming{width:40%;margin-left:-20%}.img_bg{margin-top:-40%}}
+    @media screen and (max-width:736px){.img_coming{width:70%;margin-left:-35%;margin-top:-40%}.img_bg{margin-top:-50%}}
   </style>
 </head>
 <body>
